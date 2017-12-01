@@ -18,3 +18,7 @@ contract Adoption {
 
 // uint is an integer, you have to define the arguments AND the output!
 // on line 8, the person or contract who called this function is msg.sender!
+
+
+// SimpleStorage.deployed().then(function(instance){return instance.get.call();}).then(function(value){return value.toNumber()});
+// returns 0
